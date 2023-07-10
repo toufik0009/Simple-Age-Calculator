@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     fun btnGetAge(view: View) {
             val tvAge: TextView = findViewById(R.id.tvAge)
-            val etBirth: EditText = findViewById(R.id.etBrith)
+            val etBirth: EditText = findViewById(R.id.etBirth)
 
             val dob: String = etBirth.text.toString()//Convert to string
             val currentYear = Calendar.getInstance().get(Calendar.YEAR)//Declared the Current Year
